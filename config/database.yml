@@ -78,8 +78,10 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: ruby-rails-sample_production
-  username: ruby-rails-sample
-  password: <%= ENV['RUBY-RAILS-SAMPLE_DATABASE_PASSWORD'] %>
+
+
+# production:
+#   <<: *default
+#   database: ruby-rails-sample_production
+#   username: ruby-rails-sample
+#   password: <%= ENV['RUBY-RAILS-SAMPLE_DATABASE_PASSWORD'] %>
